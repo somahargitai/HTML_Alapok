@@ -14,15 +14,14 @@ Jelöljük meg a div elemeket classokkal:
 
 Ezután már rájuk is akaszthatunk stílusokat. A classok nevei elé mindig teszünk egy pontot, ezzel jelöljük, hogy ezek nem standard HTML elemek, mint egy bekezdés, hanem classok:
 
-````css
-      .egyik {
-        border: 10px solid red;
-      }
-      .masik {
-        border: 5px dotted #123456;
-      }
-      ```
-````
+```css
+.egyik {
+  border: 10px solid red;
+}
+.masik {
+  border: 5px dotted #123456;
+}
+```
 
 Akárhány elemet jelölünk meg, mindegyik megkapja ugyanazokat a stílusokat. Ezen a példán egy span és egy div is megkapta ugyanazt a stílust és minden további nélkül működött is.
 

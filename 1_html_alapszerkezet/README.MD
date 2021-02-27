@@ -8,12 +8,12 @@ The quick brown fox jumps over the lazy dog
 </p>
 ```
 
-A fő html-tag `<html>`. Ebben kell elhelyezni a `<head>` és a `<body>` elemet. A body tartalmaz minden szöveget és más elemet, amit látni akarsz a weboldalon. A head írja le a többi szükséges háttérinformációt: mi legyen a weboldal címe (ami megjelenik a böngészőfülön), milyen stílusokat alkalmazzunk a body elemein, vagy éppen mi történjen, ha megnyomsz egy gombot (_ehhez majd Javascript kódra lesz szükség_).
+A fő html-tag a `<html>`. Ebben kell elhelyezni a `<head>` és a `<body>` elemeket. A body tartalmaz minden szöveget és más elemet, amit látni akarsz a weboldalon. A head írja le a többi szükséges háttérinformációt: mi legyen a weboldal címe (ami megjelenik a böngészőfülön), milyen stílusokat alkalmazzunk a body elemein, vagy éppen mi történjen, ha megnyomsz egy gombot (_ehhez majd Javascript kódra lesz szükség_).
 
 ```html
 <html>
 <head>
-  <title>DOG !</title>
+  <title> DOG !</title>
 </head>
 <body>
   The quick brown fox jumps over the lazy dog
@@ -21,7 +21,7 @@ A fő html-tag `<html>`. Ebben kell elhelyezni a `<head>` és a `<body>` elemet.
 </html>
 ```
 
-További kiegészítő elemek fordulhatnak elő a head-ben, illetve a html tagen kívül is. Ezek egyelőre nekünk nem fontosak, de hasznos, ha tudunk róluk. Az alábbi kódot a HTML5 Boilerplate bővítmény gyártja le neked a VS Code-ban HTML kezdőkódként, ezért ezeket magyarázom meg itt, mint tipikus alapelemeket:
+További kiegészítő elemek fordulhatnak elő a head-ben, illetve a html tagen kívül is. Ezek egyelőre nekünk nem fontosak, de nem árt, ha tudunk róluk. Az alábbi kódot a HTML5 Boilerplate bővítmény gyártja le neked a VS Code-ban HTML kezdőkódként, ezért ezeket magyarázom meg itt, mint tipikus alapelemeket:
 - DOCTYPE : Minden szabványos HTML fájl ezzel kezdődik. Ez mondja meg a böngészőnek, hogy "mire számítson". Főleg a HTML régi verziói miatt szükséges
 - Internet Explorer megjegyzések : mivel még mindig használnak emberek régi verziós, borzasztó böngészőket, amik nem tudják a modern kódot jól használni, ezeknek "üzen" ez a pár sor.
 - `meta` tagek: itt is a böngészőnek üzenünk, elsősorban a régi böngészőkre tekintettel. Rögzítjük, hogy Unicode karakterkódolást fogunk használni és nem egy régit, pl. a 191 betűformát ismerő _ISO/IEC 8859-2_ karakterkódolást, ami az UTF-t előtt használatos volt magyar honlapokon

@@ -1,6 +1,6 @@
 # CSS alapok
 
-A stílust leíró kódot beírhatjuk a HTML fájl `<head>` részébe is, a HTML tagek belsejébe is, és külön fájlba is, `<link>` taggel hívatkozva. Én it most az előbbit fogom alkalmazni, de ugyanilyen jó megoldás a külön CSS fájl is. A HTML kódba nem szokás már stílusparancsokat beírni, szerencsésebb szétválasztani a HTML és a CSS kódrészt.
+A stílust leíró kódot beírhatjuk a HTML fájl `<head>` részébe is, a HTML tagek belsejébe is, és külön fájlba is, `<link>` taggel hivatkozva. Én itt most az elsőt fogom alkalmazni, de ugyanilyen jó megoldás a külön CSS fájl is. A HTML kódba nem szokás már stílusparancsokat beírni, szerencsésebb szétválasztani a HTML és a CSS kódrészt.
 
 Helyezzünk el `<style>` taget a `<head>`-ben, majd megírhatjuk az első stílusparancsunkat:
 

@@ -11,7 +11,7 @@ Szerencsés, ha egy rendes, asztali kódszerkesztőben dolgozunk, ezért ajánlo
 Ha a VS Code mellett döntöttél, nagyban segíti majd az életedet, ha mindjárt telepítesz is hozzá egy alapvető bővítményt. Ehhez a baloldali menüsávban válaszd ki az Extensions menüt (tetris-ikon, gyorsbillentyűje _Ctrl Shift X_) és keresd meg a Live Server bővítményt, majd nyomj rá az _install_-ra.
 Ettől kezdve bármelyik html fájlodnál elég lesz megnyomni a VS Code alsó kék sávjában a __Go Live__ gombot, hogy a böngésző minden mentett változtatást azonnal mutasson.
 
-Emmellett nagyban gyorsítja a gépelést, ha valamilyen Code Snippet bővítményed is van, mint pl. a HTML5 Boilerplate. További hasznos bővítményeket gyűjtök [ebben a Gistben](https://gist.github.com/somahargitai/486d9d747d9922cede777e319e124d0c)
+Emellett nagyban gyorsítja a gépelést, ha valamilyen Code Snippet bővítményed is van, mint pl. a HTML5 Boilerplate. További hasznos bővítményeket gyűjtök [ebben a Gistben](https://gist.github.com/somahargitai/486d9d747d9922cede777e319e124d0c)
 
 
 ## A fájlok használatáról
