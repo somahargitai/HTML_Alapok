@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>8 - Position, Table, Float</title>
+    <style>
+      body {
+        border: 0px;
+        margin: 0px;
+        padding: 0px;
+      }
+      div.fejlec {
+        font-family: sans-serif;
+        padding: 15px;
+        background-color: royalblue;
+        color: white;
+      }
+      div.fejlec span {
+        margin: 10px;
+      }
+      div.fejlec ul {
+        display: inline-block;
+        margin: 0;
+      }
+      div.fejlec li {
+        display: none;
+      }
+      div.fejlec ul:hover li {
+        position: absolute;
+        display: block;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="fejlec">
+      <span>
+        <ul>
+          menü 1
+          <li>egyes almenü</li>
+          <li>négyes almenü</li>
+          <li>hármas almenü</li>
+        </ul>
+      </span>
+      <span>menü 2</span>
+      <span>menü 3</span>
+      <span>menü 4</span>
+    </div>
+    <span class="egyik">Ez egy span</span>
+    <div class="masik">Másik div</div>
+  </body>
+</html>
