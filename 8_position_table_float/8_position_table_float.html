@@ -1,50 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>8 - Position, Table, Float</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>8 - Position, Float</title>
     <style>
-      body {
-        border: 0px;
-        margin: 0px;
-        padding: 0px;
+      div#content {
+        position: relative;
+        width: 500px;
+        margin: 0 auto;
+        padding:5px;
+        border-top: 20px solid red;
+        border-right: 25px solid blue;
+        border-bottom: 1px solid red;
+        border-left: 1px solid black;
       }
-      div.fejlec {
-        font-family: sans-serif;
-        padding: 15px;
-        background-color: royalblue;
-        color: white;
+      img {
+        float: left;
       }
-      div.fejlec span {
-        margin: 10px;
+      #i_am_griffo_fan {
+        position: fixed;
+        top:5px;
+        right: 50px;
+        padding: 10px;
+        border: 4px solid purple;
+        background-color: rosybrown;
+        color:seashell;
+        font-weight: 600;
+        font-size:x-large;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
       }
-      div.fejlec ul {
-        display: inline-block;
-        margin: 0;
+      #creepy_style {
+        position: relative;
+        left:-60px;
       }
-      div.fejlec li {
-        display: none;
-      }
-      div.fejlec ul:hover li {
+      #absolute_typo_nerd {
         position: absolute;
-        display: block;
+        top: 300px;
+        left: -156px;
+        padding: 10px;
+        border-right: 5px solid black;
+        border-left: 20px solid blue;
+        background-color: beige;
       }
     </style>
   </head>
   <body>
-    <div class="fejlec">
-      <span>
-        <ul>
-          menü 1
-          <li>egyes almenü</li>
-          <li>négyes almenü</li>
-          <li>hármas almenü</li>
-        </ul>
-      </span>
-      <span>menü 2</span>
-      <span>menü 3</span>
-      <span>menü 4</span>
+    <div id='content'>
+      <h1>Aldus Manutius kiadói tevékenysége</h1>
+      <h2>Görög és latin klasszikusok</h2>
+      <p>
+        Első nyomtatott könyve Constantin Lascaris görög nyelvtana volt, melyet
+        1495-ben fejezett be. Háza valóságos iskola volt, amelynek tagjai
+        nagyrészt nála laktak. Itt állapították meg a kéziratok kritikai
+        szövegét, megtisztították a helytelen kifejezésektől, nyomás alá
+        rendezték és korrigálták azokat. Az ókori klasszikusok kódexekben
+        fennmaradt szövegei, a másolók hanyagsága miatt, tele voltak hibákkal.
+        Aldus és a köréje sereglett tudósok hozták helyre a hibákat, s a
+        korrigált szöveg alapján került nyomásra a könyv.
+      </p>
+      <img src="../images/Aldus_Manutius_anchor_and_dolphin.jpg" />
+      <p>
+        Ambiciózus kiadási programjának megvalósítása 1495-ben kezdődött.
+        Közülük is az ötkötetes Arisztotelészt kell kiemelni, amely görög
+        kézírás után tervezett kurzív betűtípusával 1495 és 1498 között jelent
+        meg, és nagy feltűnést keltett az európai humanisták körében. A
+        következő évben Griffo a híres dőlt betűs, vagyis kurzív típussal
+        készült el, amely az ún. cancellaresca, a humanista folyóírás nyomdai
+        megfelelője lett. Ma már álló betűkkel párosítva főként
+        kiemelésre <span id='creepy_style'>használjuk</span> a dőlt betűket, de Aldus még egész könyveket
+        szedetett belőle. A dőlt betűk használata komoly befolyást gyakorolt a
+        16. századi tipográfiára, nagyban elősegítve az antikva típusok
+        győzelmét egész Európában. Aldus 1502-től kezdve használta könyveiben,
+        az Aldinákban a delfines nyomdajelet, amely a könyvbarátok szemében
+        azóta is a tartalmi és formai minőség jele.
+      </p>
+      <div id='absolute_typo_nerd'>Typography 2021</div>
     </div>
-    <span class="egyik">Ez egy span</span>
-    <div class="masik">Másik div</div>
+    <span id='i_am_griffo_fan'> Francesco Griffo 4EVA! </span>
   </body>
 </html>
